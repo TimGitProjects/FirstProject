@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: rgb(44, 44, 44);
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.header_nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.header_nav_item {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.header_nav_item:not(:last-child) {
+    margin-right: 63px;
+}
+
+.header_nav_link:hover {
+    color: rgb(0, 186, 0);
+}
+
+.header_nav_link {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.header_logo_title {
+    color: rgb(255, 255, 255);
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.header_div_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_img {
+    margin-right: 10px;
+}
+
+.header_exit_logo {
+    cursor: pointer;
+}
+
+.about_game {
+    background: rgb(44, 44, 44);
+}
+
+.container_about_game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 67px 0px 83px;
+}
+
+.content_about_game {
+    max-width: 599px;
+}
+
+.title_about_game {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.text_about_game {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.link_about_game {
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 13px 0px rgba(32, 186, 0, 0.39);
+    background: linear-gradient(135.00deg, rgb(25, 145, 0),rgb(57, 207, 0) 100%);
+    padding: 14px 22px;
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.link_about_game:hover {
+    background: linear-gradient(135.00deg, rgb(19, 112, 0),rgb(49, 173, 0) 100%);
+}
+
+.about-block {
+    background: rgb(62, 62, 62);
+}
+
+.container_about {
+    padding: 66.5px 0 185px;
+}
+
+.about_title {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 93.5px;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_list {
+    list-style: none;
+}
+
+.skills_first_out {
+    width: 356px;
+    height: 10px;
+    background: rgb(0, 186, 0);
+    margin-bottom: 35px;
+}
+
+.skills_first_in {
+    height: 100%;
+    width: 333px;
+    background: rgb(44, 44, 44);
+}
+
+.skills_second_out {
+    width: 356px;
+    height: 10px;
+    background: rgb(0, 186, 0);
+    margin-bottom: 35px;
+}
+
+.skills_second_in {
+    height: 100%;
+    width: 344px;
+    background: rgb(44, 44, 44);
+}
+
+.skills_third_out {
+    width: 356px;
+    height: 10px;
+    background: rgb(0, 186, 0);
+}
+
+.skills_third_in {
+    height: 100%;
+    width: 298px;
+    background: rgb(44, 44, 44);
+}
+
+.about_skills_title {
+    margin-bottom: 72px;
+}
+
+.about_skills_title {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skills_item_first {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.skills_item_second {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.skills_item_third {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.video {
+    background: rgb(44, 44, 44);
+}
+
+.container_video {
+    padding: 66.5px 0 94px;
+}
+
+.video_title {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 47.5px;
+}
+
+.video_video {
+    height: 659px;
+    width: 100%;
+    border: 48px rgb(62,62,62) solid;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    background: rgb(62, 62, 62);
+    padding: 66.5px 0 70px;
+}
+.gallery_title {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 66.5px;
+}
+
+.gallery_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.gallery_item {
+    height: 356px;
+    width: 32%;
+    margin-right: 22px;
+    margin-bottom: 39px;
+
+}
+
+.gallery_img {
+    height: 100%;
+    width: 100%;
+}
+
+.container_gallery {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.gallery_item_last {
+    height: 356px;
+    width: 32%;
+    margin-bottom: 39px;
+
+}
+
+.gallery_img_last {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(44, 44, 44);
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0 31px;
+}
+
+.footer_title {
+    color: rgb(228, 228, 228);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer_text {
+    color: rgb(255, 255, 255);
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.footer_item:not(:last-child) {
+    margin-right: 40px;
+}
